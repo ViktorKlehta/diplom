@@ -11,7 +11,7 @@ Django 4.2+
 1. Клонируйте репозиторий
 bash
 git clone https://github.com/ViktorKlehta/diplom.git
-cd 
+cd diplom
 
 2. Создайте и активируйте виртуальное окружение (рекомендуется)
 
