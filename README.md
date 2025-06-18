@@ -11,9 +11,10 @@ Django 4.2+
 1. Клонируйте репозиторий
 bash
 git clone https://github.com/ViktorKlehta/diplom.git
+
 cd diplom
 
-2. Создайте и активируйте виртуальное окружение (рекомендуется)
+3. Создайте и активируйте виртуальное окружение (рекомендуется)
 
 Windows:
 
@@ -35,8 +36,8 @@ pip install django
 4. Настройте базу данных
 
 Примените миграции:
-### bash
-### python manage.py migrate
+bash
+python manage.py migrate
 
 5. Создайте суперпользователя (опционально)
 
