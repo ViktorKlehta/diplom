@@ -20,31 +20,13 @@ git clone https://github.com/ViktorKlehta/diplom.git
 
 cd diplom
 
-2. Создайте и активируйте виртуальное окружение (рекомендуется)
-
-Windows:
-
-bash
-
-python -m venv venv
-
-venv\Scripts\activate
-
-Linux/MacOS:
-
-bash
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-3. Установите зависимости
+2. Установите зависимости
 
 bash
 
 pip install django
 
-4. Настройте базу данных
+3. Настройте базу данных
 
 Примените миграции:
 
@@ -52,7 +34,7 @@ bash
 
 python manage.py migrate
 
-5. Создайте суперпользователя (опционально)
+4. Создайте суперпользователя (опционально)
 
 bash
 
@@ -60,7 +42,7 @@ python manage.py createsuperuser
 
 (Для доступа к админке: /admin)
 
-6. Запустите сервер
+5. Запустите сервер
 
 bash
 
